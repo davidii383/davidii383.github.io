@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    name = "ScoutHTML"
+    name = "Dave"
     return render_template("index.html", user_name=name)
 
 if __name__ == "__main__":
